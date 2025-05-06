@@ -1,0 +1,23 @@
+{
+  "name": "sstdev",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "dev": "sst dev"
+  },
+  "devDependencies": {
+    "@types/aws-lambda": "8.10.146",
+    "typescript": "^5.8.3"
+  },
+  "dependencies": {
+    "@aws-sdk/client-lambda": "^3.714.0",
+    "@langchain/core": "^0.3.53",
+    "@langchain/langgraph": "^0.2.68",
+    "@langchain/openai": "^0.5.10",
+    "dotenv": "^8.2.0",
+    "node-fetch": "^3.3.2",
+    "sst": "latest"
+  }
+}
